@@ -11,4 +11,5 @@ VALUES
   ('João Pedro', 'joao@hotmail.com', '2026-06-01'),
   ('Ana Clara Silva', 'ana.clara@yahoo.com', '2025-12-15');
  
-  
+  SELECT * FROM Clientes;
+
