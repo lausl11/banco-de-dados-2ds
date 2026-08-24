@@ -22,6 +22,12 @@ SELECT * FROM Clientes;
  INSERT INTO Compras (ClienteID, NomeLivro) VALUES (1, 'Clean Code');
  INSERT INTO Compras (ClienteID, NomeLivro) VALUES (2, 'The Pragmatic Programmer');
 
+SELECT 
+    Clientes.nomeCliente,
+    Compras.NomeLivro
+FROM Compras
+INNER JOIN Clientes ON Compras.ClienteID = Clientes.ID
+ORDER BY Clientes.nomeCliente;
 
 SELECT 'Tabelas criadas e dados inseridos com sucesso!' AS Status;
 
