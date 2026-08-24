@@ -15,6 +15,7 @@ CREATE TABLE Compras (
 
 DROP TABLE demo;
 
+SELECT * FROM Clientes;
 
  INSERT INTO Clientes (nomeCliente, emailCliente) VALUES ('João Silva', 'joao@email.com');
  INSERT INTO Clientes (nomeCliente, emailCliente) VALUES ('Maria Santos', 'maria@email.com');
